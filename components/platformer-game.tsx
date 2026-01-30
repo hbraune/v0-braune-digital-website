@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { usePlatformer } from "@/hooks/use-platformer"
+import { usePlatformer } from "../hooks/use-platformer"
 import { GameBoyShell } from "./gameboy-shell"
 
 interface PlatformerGameProps {

@@ -1,7 +1,11 @@
 {
-  "name": "my-v0-project",
+  "name": "@test-website/v0-gameboy",
   "version": "0.1.0",
   "private": true,
+  "exports": {
+    "./components/*": "./components/*.tsx",
+    "./hooks/*": "./hooks/*.ts"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",

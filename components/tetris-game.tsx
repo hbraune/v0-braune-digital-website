@@ -1,6 +1,6 @@
 "use client"
 
-import { useTetris } from "@/hooks/use-tetris"
+import { useTetris } from "../hooks/use-tetris"
 import { GameBoard } from "./game-board"
 import { NextPiece } from "./next-piece"
 import { GameStats } from "./game-stats"
