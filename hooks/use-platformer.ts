@@ -11,7 +11,7 @@ const MOVE_SPEED = 3
 const GROUND_HEIGHT = 30
 
 // Entity types
-interface Player {
+export interface Player {
   x: number
   y: number
   width: number
@@ -60,7 +60,7 @@ interface NPC {
   hearts: { x: number; y: number; targetX: number; targetY: number; alpha: number }[]
 }
 
-interface Level {
+export interface Level {
   platforms: Platform[]
   enemies: Enemy[]
   coins: Coin[]
